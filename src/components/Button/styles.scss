@@ -1,0 +1,56 @@
+button,
+.button {
+    border: none;
+    cursor: pointer;
+    background-color: var(--green);
+    color: #FFFF;
+    font-weight: 500;
+    transition: filter 0.25s;
+
+    a {
+        color: #ffff;
+        padding: 0.6rem;
+        font-family: "Red Hat Display", sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: filter 0.25s;
+    }
+
+    &:hover {
+        filter: brightness(0.8);
+    }
+
+    &:disabled {
+        filter: brightness(0.8);
+        cursor: not-allowed;
+    }
+}
+
+.primary {
+    border-radius: 2rem;
+    padding: 0.6rem 5rem;
+}
+
+.secondary {
+    width: 100%;
+    max-width: 285px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.medium {
+    margin-top: 5rem;
+    padding: 1.4rem 6rem;
+}
+
+.btnWithIcon {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+// button:disabled,
+// .button:disabled {
+//     filter: brightness(0.8);
+//     cursor: not-allowed;
+// }
