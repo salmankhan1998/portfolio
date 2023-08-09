@@ -1,9 +1,9 @@
 import { BrowserRouter } from "react-router-dom";
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
-import Illustration from "../../assets/illustration.svg";
 import { NavHashLink } from "react-router-hash-link";
 import Button from "../Button";
+import Icon from "../Icon/Icon";
 export function Hero() {
   return (
     <Container id="home" className="home">
@@ -36,7 +36,9 @@ export function Hero() {
       </div>
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="Ilustração" />
+          <div className="illustration-image">
+            <Icon type='Illustration' />
+          </div>
         </ScrollAnimation>
       </div>
     </Container>

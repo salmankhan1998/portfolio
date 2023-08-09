@@ -4,7 +4,7 @@ import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState } from "react";
 import Button from "../Button";
 
-import Curriculo from "../../assets/AsimCV.pdf";
+import Curriculo from "../../assets/SalmanResume.pdf";
 export function Header() {
   const [isActive, setActive] = useState(false);
 

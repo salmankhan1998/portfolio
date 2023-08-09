@@ -11,9 +11,7 @@ const Icon: React.FC<IconProps> = ({ type }) => {
   const IconComponent = Icons[type];
 
   return (
-    <div data-testid="Icon" className="icon">
-      <IconComponent />
-    </div>
+    <IconComponent />
   );
 };
 

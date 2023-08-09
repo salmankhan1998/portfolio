@@ -25,8 +25,9 @@ export const Container = styled.section`
   }
 
   .hero-image {
-    img {
-      max-width: 500px;
+    .illustration-image {
+      width: 500px;
+      height: 425px;
     }
   }
 
