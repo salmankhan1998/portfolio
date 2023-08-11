@@ -14,3 +14,4 @@ export { default as Sass} from "./sass";
 export { default as Typescript} from "./typescript";
 export { default as VsCode} from "./vsCode";
 export { default as VueJs} from "./vue";
+export { default as FolderIcon} from "./folder-icon";
