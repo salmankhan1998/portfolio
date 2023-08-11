@@ -1,1 +1,1 @@
-export type IconType = "Mail" | "Phone" | "Bootstrap" | "Css" | "ExternalLink" | "GitHub" | "Html" | "Illustration" | "Javascript" | "MySQL" | "NodeJs" | "ReactJs" | "Sass" | "Typescript" | "VsCode" | "VueJs";
+export type IconType = "Mail" | "Phone" | "Bootstrap" | "Css" | "ExternalLink" | "GitHub" | "Html" | "Illustration" | "Javascript" | "MySQL" | "NodeJs" | "ReactJs" | "Sass" | "Typescript" | "VsCode" | "VueJs" | "FolderIcon";
