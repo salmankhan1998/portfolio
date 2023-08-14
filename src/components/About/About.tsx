@@ -13,13 +13,10 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>
-            Salman, a proficient and dedicated Front-end Developer from
-            Rawalpindi, Pakistan, stands out with a strong academic background.
-            Having successfully completed the Matric Examination at SLS
-            Montessori and High School Rawalpindi and the FSC Examination at 502
-            Modal College Rawalpindi, he further honed his skills through a
-            Bachelor's degree in Software Engineering from NUML University
-            Islamabad.
+            Welcome to my portfolio! I am a skilled front-end developer experienced in JavaScript,
+            React.js, Next.js, Svelte.js, and styling technologies. My work reflects a deep
+            understanding of these tools, allowing me to create dynamic web applications with
+            seamless user experiences.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -28,28 +25,23 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            With a wealth of experience in website and application development,
-            Salman specializes in crafting seamless user experiences using HTML,
-            CSS, and JavaScript. He is well-versed in efficiently implementing
-            provided layouts while continuously enhancing his abilities with
-            each project undertaken.
+            My proficiency extends to styling with technologies like Styled Components, CSS,
+            Sass, Tailwind CSS, Material UI, and Ant Design. These skills enable me to craft
+            visually appealing and user-friendly interfaces.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
           <p>
-            Driven by a relentless pursuit of excellence, Salman's work ethic is
-            characterized by his unwavering commitment to achieving optimal
-            results. As a result-oriented professional, he consistently strives
-            to deliver the best possible outcomes, ensuring client satisfaction
-            and project success.
+            I have a strong grasp of state management using Redux and Recoil, and I've enhanced
+            code quality and collaboration using TypeScript. My portfolio showcases diverse projects
+            that highlight my ability to turn ideas into functional web applications.
           </p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.8 * 1000}>
           <p>
-            Passionate about his craft, Salman's front-end portfolio showcases
-            his expertise, growth mindset, and determination to create impactful
-            digital solutions that leave a lasting impression.
+            Thank you for visiting my portfolio. I look forward to the opportunity to contribute my
+            skills and expertise to your next project. Let's create something amazing together!
           </p>
         </ScrollAnimation>
 
