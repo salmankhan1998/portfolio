@@ -1,3 +1,4 @@
+import React from "react";
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
 import Icon from "../Icon/Icon";
@@ -34,33 +35,34 @@ export function Portfolio() {
 
       <div className="projects">
         {dummyData.map((project) => (
-          <ScrollAnimation animateIn="flipInX">
-            <div className="project">
-              <header>
-                <Icon type="FolderIcon" />
-                <div className="project-links">
-                  <a href={project.github} target="_blank" rel="noreferrer">
-                    <Icon type="GitHub" />
-                  </a>
-                  <a href={project.externalLink} target="_blank" rel="noreferrer">
-                    <Icon type="ExternalLink" />
-                  </a>
+          <React.Fragment key={project.name}>
+            <ScrollAnimation animateIn="flipInX">
+              <div className="project">
+                <header>
+                  <Icon type="FolderIcon" />
+                  <div className="project-links">
+                    <a href={project.github} target="_blank" rel="noreferrer">
+                      <Icon type="GitHub" />
+                    </a>
+                    <a href={project.externalLink} target="_blank" rel="noreferrer">
+                      <Icon type="ExternalLink" />
+                    </a>
+                  </div>
+                </header>
+                <div className="body">
+                  <h3>{project.name}</h3>
+                  <p>{project.description}</p>
                 </div>
-              </header>
-              <div className="body">
-                <h3>{project.name}</h3>
-                <p>{project.description}</p>
+                <footer>
+                  <ul className="tech-list">
+                    {project.stack.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                </footer>
               </div>
-              <footer>
-                <ul className="tech-list">
-                  {project.stack.map(item => (
-                    <li>{item}</li>
-                  ))}
-                </ul>
-              </footer>
-            </div>
-          </ScrollAnimation>
-        ))}
+            </ScrollAnimation>
+          </React.Fragment>))}
       </div >
     </Container >
   );
