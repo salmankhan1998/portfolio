@@ -16,15 +16,13 @@ export function Contact() {
         <Button iconType="Mail" variant="secondary">
           {/* <img src={emailIcon} alt="Email" /> */}
           {/* <Icon type={IconType.MAIL} /> */}
-          <a href="mailto:skhandilshad1998@gmail.com">
-            skhandilshad1998@gmail.com
-          </a>
+          <a href="mailto:skhandilshad1998@gmail.com" />
         </Button>
 
         <Button iconType="Phone" variant="secondary">
           {/* <img src={phoneIcon} alt="Email" /> */}
           {/* <Icon type={IconType.PHONE} /> */}
-          <a href="tel:+923109374288">(+92) 310-9374288</a>
+          <a href="tel:+923109374288" />
         </Button>
       </div>
       <Form></Form>

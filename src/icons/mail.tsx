@@ -9,9 +9,13 @@ const Mail = () => {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       x="0px"
       y="0px"
+      width="25"
+      height="25"
       viewBox="0 0 100 100"
       //   style={{enable-background: 0 0 100 100}}
       xmlSpace="preserve"
+      stroke="#FFFFFF"
+      fill="#FFFFFF"
     >
       <path
         d="M93,19H7c-1.1,0-2,0.9-2,2v58c0,0,0,0,0,0.1c0,0.1,0,0.1,0,0.2c0,0.1,0,0.1,0,0.2c0,0.1,0,0.1,0.1,0.2c0,0.1,0,0.1,0.1,0.2

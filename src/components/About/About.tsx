@@ -11,7 +11,7 @@ export function About() {
         <ScrollAnimation animateIn="fadeInLeft">
           <h2>About</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 100}>
           <p>
             Welcome to my portfolio! I am a skilled front-end developer experienced in JavaScript,
             React.js, Next.js, Svelte.js, and styling technologies. My work reflects a deep
@@ -21,7 +21,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation
           animateIn="fadeInLeft"
-          delay={0.4 * 1000}
+          delay={0.2 * 100}
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
@@ -30,7 +30,7 @@ export function About() {
             visually appealing and user-friendly interfaces.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 100}>
           <p>
             I have a strong grasp of state management using Redux and Recoil, and I've enhanced
             code quality and collaboration using TypeScript. My portfolio showcases diverse projects
@@ -38,20 +38,20 @@ export function About() {
           </p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.8 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 100}>
           <p>
             Thank you for visiting my portfolio. I look forward to the opportunity to contribute my
             skills and expertise to your next project. Let's create something amazing together!
           </p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.5 * 100}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
 
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 100}>
               <Icon type="ReactJs" />
             </ScrollAnimation>
           </div>
@@ -98,7 +98,7 @@ export function About() {
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 100}>
           <img src={profileImage} alt="Imagem de perfil" />
         </ScrollAnimation>
       </div>

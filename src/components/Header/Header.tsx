@@ -3,14 +3,18 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState } from "react";
 import Button from "../Button";
-
+import LogoDark from "../../assets/logo-dark.svg";
+import LogoLight from "../../assets/logo-light.svg";
 import Curriculo from "../../assets/SalmanResume.pdf";
+
 export function Header() {
-  const [isActive, setActive] = useState(false);
+  const [active, setActive] = useState(false);
+  const [isLightTheme, setIsLightTheme] = useState(false)
 
   function toggleTheme() {
     let html = document.getElementsByTagName("html")[0];
     html.classList.toggle("light");
+    setIsLightTheme(!isLightTheme);
   }
 
   function closeMenu() {
@@ -20,20 +24,11 @@ export function Header() {
   return (
     <Container className="header-fixed">
       <Router>
-        <HashLink smooth to="#home" className="logo">
-          <span>S.K</span>
+        <HashLink smooth to="#home" className="Header-logo">
+          <img src={isLightTheme ? LogoLight : LogoDark} alt="logo" />
         </HashLink>
 
-        <input
-          onChange={toggleTheme}
-          className="container_toggle"
-          type="checkbox"
-          id="switch"
-          name="mode"
-        />
-        <label htmlFor="switch">Toggle</label>
-
-        <nav className={isActive ? "active" : ""}>
+        <nav className={active ? "active" : ""}>
           <NavHashLink smooth to="#home" className="link" onClick={closeMenu}>
             Home
           </NavHashLink>
@@ -61,15 +56,24 @@ export function Header() {
               CV
             </a>
           </Button>
+          <input
+            onChange={toggleTheme}
+            className="container_toggle"
+            type="checkbox"
+            id="switch"
+            name="mode"
+          />
+          <label htmlFor="switch">Toggle</label>
         </nav>
 
+
         <div
-          aria-expanded={isActive ? "true" : "false"}
+          aria-expanded={active ? "true" : "false"}
           aria-haspopup="true"
-          aria-label={isActive ? "Fechar menu" : "Abrir menu"}
-          className={isActive ? "menu active" : "menu"}
+          aria-label={active ? "Fechar menu" : "Abrir menu"}
+          className={active ? "menu active" : "menu"}
           onClick={() => {
-            setActive(!isActive);
+            setActive(!active);
           }}
         ></div>
       </Router>

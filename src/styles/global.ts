@@ -84,7 +84,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button{
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-weight: 400;
   }
 
