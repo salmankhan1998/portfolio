@@ -45,7 +45,7 @@ export const Container = styled.section`
     img {
       margin-top: 2rem;
       width: 100%;
-      height: 700px;
+      height: 595px;
       object-fit: cover;
       filter: grayscale(1);
       transition: filter 0.5s;
