@@ -1,61 +1,68 @@
 import styled from "styled-components";
 
-
 export const Container = styled.footer`
-  background-color: #2b2b2b;
+  background-color: rgba(33, 33, 33, 0.314);
   padding: 3rem 15rem;
   margin-top: 15rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-
-  .logo{
+  .logo {
     font-size: 2.8rem;
   }
 
-  p{
+  p {
     letter-spacing: 0.2rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    img{
+    img {
       width: 2.6rem;
       animation: spinning 5s infinite linear;
     }
   }
-  .social-media{
+  .social-media {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
 
-    img,span{
-      font-size: 3rem;
-      width: 3rem;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 4rem;
+      height: 4rem;
+      background: transparent;
+      box-shadow: 0 0 10px 0 var(--black) inset, 0 0 10px 4px var(--black);
+      border-radius: 50%;
+      img {
+        // font-size: 3rem;
+        width: 2rem;
+      }
     }
   }
 
-
   @keyframes spinning {
-    0%{
+    0% {
       transform: rotate(0);
     }
-    100%{
+    100% {
       transform: rotate(360deg);
     }
   }
 
-  @media(max-width: 800px){
+  @media (max-width: 800px) {
     padding: 4rem 10rem;
     flex-direction: column;
     gap: 2rem;
     text-align: center;
   }
-  @media(max-width: 600px){
+  @media (max-width: 600px) {
     padding: 4rem 1rem;
-    p{
+    p {
       font-size: 1.2rem;
     }
   }
-`
+`;
