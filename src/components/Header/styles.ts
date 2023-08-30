@@ -173,6 +173,8 @@ export const Container = styled.header`
 
       label {
         background: #fff;
+        margin-right: auto;
+        right: 0;
 
         &::after {
           background: var(--green);
