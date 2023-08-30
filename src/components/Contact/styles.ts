@@ -24,10 +24,4 @@ export const Container = styled.section`
     place-items: center;
     margin-top: 6rem;
   }
-
-  @media (max-width: 960px) {
-    .contacts {
-      flex-direction: column;
-    }
-  }
 `;

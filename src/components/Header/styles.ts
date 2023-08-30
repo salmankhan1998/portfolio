@@ -167,6 +167,21 @@ export const Container = styled.header`
         background-color: var(--dark-gray);
       }
 
+      button {
+        border-color: #fff;
+      }
+
+      label {
+        background: #fff;
+
+        &::after {
+          background: var(--green);
+        }
+      }
+
+      input:checked + label::after {
+        background: var(--green);
+      }
       &.active {
         opacity: 1;
         visibility: visible;
