@@ -15,16 +15,16 @@ button,
     cursor: pointer;
     display: flex;
     align-self: center;
-    padding: 0.5em 2em;
+    padding: 8px 16px;
     transition: all 150ms ease-in-out;
 
     &:hover {
-        box-shadow: 0 0 10px 0 var(--green) inset, 0 0 10px 4px var(--green);
+        box-shadow: 0 0 5px 0 var(--green) inset, 0 0 16px 0px var(--green);
     }
 
     a {
         color: #ffff;
-        font-weight: 500;
+        font-weight: 400;
         font-family: "Lexend", sans-serif;
         transition: filter 0.25s;
     }

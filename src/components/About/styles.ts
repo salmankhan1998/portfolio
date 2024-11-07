@@ -26,18 +26,19 @@ export const Container = styled.section`
   h2 {
     display: inline-block;
     margin-bottom: 2rem;
-    border-bottom: 0.2rem solid var(--blue);
+    border-bottom: 0.2rem solid var(--green);
   }
 
   h3 {
     margin-top: 2rem;
     color: var(--green);
+    font-weight: 500;
   }
 
   p {
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
-    font-weight: 500;
+    font-weight: 400;
   }
 
   .about-image {

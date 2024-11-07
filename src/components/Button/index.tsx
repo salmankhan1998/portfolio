@@ -1,4 +1,4 @@
-import React, { useMemo, ReactNode } from "react";
+import React, { ReactNode } from "react";
 import "./styles.scss";
 import Icon from "../Icon/Icon";
 import { IconType } from "../../heplers/types";
@@ -31,9 +31,8 @@ const Button: React.FC<Props> = ({
     <button
       type={type}
       disabled={disabled}
-      className={`button ${variant} ${size} ${iconType ? "btnWithIcon" : ""} ${
-        classNames ? classNames : ""
-      }`}
+      className={`button ${variant} ${size} ${iconType ? "btnWithIcon" : ""} ${classNames ? classNames : ""
+        }`}
       onClick={onClick}
     >
       {iconType && <Icon type={iconType} />}

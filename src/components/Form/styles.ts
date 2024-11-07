@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin-top: 10rem;
+  margin-top: 5rem;
   display: grid;
   place-items: center;
   h2 {
@@ -20,13 +20,13 @@ export const Container = styled.div`
     textarea {
       width: 60rem;
       padding: 1rem 2rem;
-      border-radius: 1.6rem;
+      border-radius: 10px;
       outline: none;
       border: none;
       background: none;
       border: 1px solid #fff;
       color: white;
-      font-weight: 600;
+      font-weight: 400;
       &::placeholder {
         color: #fff;
       }

@@ -11,7 +11,6 @@ export function Form() {
 
   const [validEmail, setValidEmail] = useState(false);
   const [message, setMessage] = useState("");
-  // const [isHuman, setIsHuman] = useState(false);
 
   function verifyEmail(email: string) {
     if (validator.isEmail(email)) {
@@ -52,6 +51,7 @@ export function Form() {
       <h2>Get in touch via Mail</h2>
       <form onSubmit={handleSubmit}>
         <input
+          required
           placeholder="Email"
           id="email"
           type="email"
@@ -59,7 +59,6 @@ export function Form() {
           onChange={(e) => {
             verifyEmail(e.target.value);
           }}
-          required
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea

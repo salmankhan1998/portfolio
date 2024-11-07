@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { Container } from "./styles";
-import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollAnimation from "react-animate-on-scroll";
 import { NavHashLink } from "react-router-hash-link";
 import Button from "../Button";
 import Icon from "../Icon/Icon";

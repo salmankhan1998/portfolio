@@ -53,7 +53,7 @@ export function Header() {
           </NavHashLink>
           <Button variant="primary">
             <a href={Curriculo} download>
-              CV
+              Resume
             </a>
           </Button>
           <input
