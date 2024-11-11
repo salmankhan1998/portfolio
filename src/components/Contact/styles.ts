@@ -25,18 +25,24 @@ export const Container = styled.section`
     place-items: center;
     margin-top: 2rem;
   }
-  .phoneWrapper {
+  .phone-wrapper {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 20px;
-    max-width: 300px;
+    max-width: 230px;
     margin: 4rem auto 0rem;
     padding: 16px 20px;
     border: 1px solid #fff;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
   }
   .phone {
     width: fit-content;
+  }
+  .copy-icon {
+    font-size: 18px;
   }
   .phone:after {
     display: block;
@@ -46,6 +52,10 @@ export const Container = styled.section`
   }
   .phone:hover:after {
     transform: scaleX(1);
+  }
+  .phone-wrapper:hover .copy-icon {
+    transform: scale3d(1.5, 1.5, 1.5);
+    transition: 0.7s;
   }
   @keyframes moveBorder {
     from {
