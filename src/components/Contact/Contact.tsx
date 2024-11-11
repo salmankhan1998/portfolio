@@ -2,10 +2,12 @@ import { Container } from "./styles";
 import { Form } from "../Form/Form";
 import Button from "../Button";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 export function Contact() {
   const [mailOption, setMailOption] = useState(false);
   const [phoneOption, setPhoneOption] = useState(false);
+  const contactNumber = '+92 310 9374288';
 
   const handleClick = (option?: string) => {
     switch (option) {
@@ -21,6 +23,23 @@ export function Contact() {
         return;
     }
   }
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(contactNumber)
+      .then(() => {
+        toast.success("Contact Copied Successfully!", {
+          position: toast.POSITION.TOP_CENTER,
+          pauseOnFocusLoss: false,
+          closeOnClick: true,
+          hideProgressBar: false,
+          toastId: "success",
+          autoClose: 1300
+        });
+      })
+      .catch((error) => {
+        console.error('Failed to copy: ', error);
+      });
+  }
   return (
     <Container id="contact">
       <header>
@@ -31,23 +50,21 @@ export function Contact() {
         </p>
       </header>
       <div className="contacts">
-        <Button iconType="Mail" variant="secondary" onClick={() => { handleClick('mail') }}>
-          {/* <img src={emailIcon} alt="Email" /> */}
-          {/* <Icon type={IconType.MAIL} /> */}
-          <a href="mailto:skhandilshad1998@gmail.com" />
-        </Button>
-
-        <Button iconType="Phone" variant="secondary" onClick={() => { handleClick('phone') }}>
-          {/* <img src={phoneIcon} alt="Email" /> */}
-          {/* <Icon type={IconType.PHONE} /> */}
-          <a href="tel:+923109374288" />
-        </Button>
+        <Button iconType="Mail" variant="secondary" onClick={() => { handleClick('mail') }} />
+        <Button iconType="Phone" variant="secondary" onClick={() => { handleClick('phone') }} />
       </div>
       <div>
         {mailOption && <Form />}
         {phoneOption &&
-          <div className="phoneWrapper">
-            <p className="phone">+92 310 9374288</p>
+          <div
+            title="Copy to clipboard"
+            className="phone-wrapper"
+            onClick={copyToClipboard}
+          >
+            <p className="phone">{contactNumber}</p>
+            <div className="copy-icon" >
+              📋
+            </div>
           </div>}
       </div>
     </Container>

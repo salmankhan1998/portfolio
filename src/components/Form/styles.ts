@@ -19,7 +19,7 @@ export const Container = styled.div`
     input,
     textarea {
       width: 60rem;
-      padding: 1rem 2rem;
+      padding: 1rem 1.5rem;
       border-radius: 10px;
       outline: none;
       border: none;
