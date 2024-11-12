@@ -55,28 +55,49 @@ export function About() {
               <Icon type="ReactJs" />
             </ScrollAnimation>
           </div>
-
           <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 100}>
+              <Icon type="NextJs" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 100}>
+              <Icon type="SvelteJs" />
+            </ScrollAnimation>
+          </div>
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
               <Icon type="VueJs" />
             </ScrollAnimation>
-          </div>
-
+          </div> */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}>
               <Icon type="Javascript" />
             </ScrollAnimation>
           </div>
-
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
+              <Icon type="NodeJs" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
+              <Icon type="Typescript" />
+            </ScrollAnimation>
+          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
               <Icon type="Html" />
             </ScrollAnimation>
           </div>
-
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}>
               <Icon type="Css" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 100}>
+              <Icon type="TailwindCss" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -85,14 +106,13 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-              <Icon type="NodeJs" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}>
+              <Icon type="Git" />
             </ScrollAnimation>
           </div>
-
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
-              <Icon type="Typescript" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}>
+              <Icon type="GitHub" />
             </ScrollAnimation>
           </div>
         </div>
