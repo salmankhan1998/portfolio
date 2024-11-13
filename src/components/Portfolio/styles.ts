@@ -11,11 +11,13 @@ export const Container = styled.section`
 
   .projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 2rem;
     padding: 1rem;
     overflow: hidden;
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
 
     .project {
       padding: 2rem 1.8rem;
@@ -69,23 +71,13 @@ export const Container = styled.section`
         .tech-list {
           display: flex;
           align-items: center;
-          gap: 2rem;
+          flex-wrap: wrap;
+          column-gap: 1rem;
+          row-gap: 0.5rem;
           font-size: 1.4rem;
           opacity: 0.6;
         }
       }
-    }
-  }
-
-  @media (max-width: 960px) {
-    .projects {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-
-  @media (max-width: 740px) {
-    .projects {
-      grid-template-columns: 1fr;
     }
   }
 `;
