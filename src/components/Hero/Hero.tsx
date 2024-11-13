@@ -25,13 +25,13 @@ export function Hero() {
         {/* </ScrollAnimation> */}
 
         {/* <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}> */}
-        <BrowserRouter>
+        {/* <BrowserRouter>
           <Button variant="primary" size="medium">
             <NavHashLink smooth to="#contact">
               Contact
             </NavHashLink>
           </Button>
-        </BrowserRouter>
+        </BrowserRouter> */}
         {/* </ScrollAnimation> */}
       </div>
       <div className="hero-image">

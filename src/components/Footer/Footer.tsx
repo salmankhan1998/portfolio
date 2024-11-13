@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 
 import linkedinIcon from "../../assets/linkedin.png";
-import githubIcon from "../../assets/github.png";
+import Icon from "../Icon/Icon";
 
 export function Footer() {
   return (
@@ -16,7 +16,7 @@ export function Footer() {
         </a>
 
         <a href="https://github.com/salmankhan1998" target="_blank" rel="noreferrer">
-          <img src={githubIcon} alt="GitHub" />
+          <Icon type="GitHub" />
         </a>
       </div>
     </Container>
