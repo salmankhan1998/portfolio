@@ -8,11 +8,18 @@ export function Portfolio() {
 
   const dummyData = [
     {
-      name: 'FCallendar',
+      name: 'Basspro Shops',
+      description: "BPS Direct, LLC, doing business as Bass Pro Shops, is an American privately held sporting goods retailer that offers hunting, fishing, camping, and other related outdoor recreation equipment, marine manufacturing and sales, and outdoor resorts. The company is recognized by its retail stores, Bass Pro Shops and Cabela's, that feature natural outdoor designs and decorations.",
+      github: '',
+      externalLink: 'https://www.basspro.com',
+      stack: ['NextJs', 'Recoil', 'Typescript', 'Sass']
+    },
+    {
+      name: 'Github Searcher',
       description: 'Uma aplicação Web realizada durante o Hackathon do programa de formação da FCamara. Esta aplicação serve para ajudar na volta do trabalho remoto para o presencial.',
-      github: '#',
-      externalLink: '#',
-      stack: ['Node', 'Express', 'MySql', 'Ejs']
+      github: 'https://github.com/joaotuliojt/github-search',
+      externalLink: 'https://github-search-blond.vercel.app/',
+      stack: ['React', 'Typescript', 'Styled-Components']
     },
     {
       name: 'Github Searcher',

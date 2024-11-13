@@ -1,23 +1,19 @@
 import { Container } from "./styles";
-import { Form } from "../Form/Form";
 import Button from "../Button";
 import { useState } from "react";
 import { toast } from "react-toastify";
 
 export function Contact() {
-  const [mailOption, setMailOption] = useState(false);
   const [phoneOption, setPhoneOption] = useState(false);
   const contactNumber = '+92 310 9374288';
 
   const handleClick = (option?: string) => {
     switch (option) {
       case 'mail':
-        setMailOption(true)
         setPhoneOption(false)
         break;
       case 'phone':
         setPhoneOption(true)
-        setMailOption(false)
         break;
       default:
         return;
@@ -50,11 +46,13 @@ export function Contact() {
         </p>
       </header>
       <div className="contacts">
-        <Button iconType="Mail" variant="secondary" onClick={() => { handleClick('mail') }} />
+        <a href="mailto:skhandilshad1998@gmail.com">
+          <Button iconType="Mail" variant="secondary" onClick={() => { handleClick('mail') }} />
+        </a>
         <Button iconType="Phone" variant="secondary" onClick={() => { handleClick('phone') }} />
       </div>
       <div>
-        {mailOption && <Form />}
+        {/* <Form /> */}
         {phoneOption &&
           <div
             title="Copy to clipboard"

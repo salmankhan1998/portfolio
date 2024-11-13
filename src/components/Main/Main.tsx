@@ -231,10 +231,12 @@ export function Main() {
           }
         }}
       />
-      <Hero></Hero>
-      <About></About>
-      <Portfolio></Portfolio>
-      <Contact></Contact>
+      <div className="container">
+        <Hero></Hero>
+        <About></About>
+        <Portfolio></Portfolio>
+        <Contact></Contact>
+      </div>
     </Container>
   );
 }
