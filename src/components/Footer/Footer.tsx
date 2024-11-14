@@ -1,9 +1,10 @@
+
+import Icon from "../Icon/Icon";
+import linkedinIcon from "../../assets/linkedin.png";
+
 import { Container } from "./styles";
 
-import linkedinIcon from "../../assets/linkedin.png";
-import Icon from "../Icon/Icon";
-
-export function Footer() {
+const Footer = () => {
   return (
     <Container className="footer">
       <div>
@@ -22,3 +23,5 @@ export function Footer() {
     </Container>
   );
 }
+
+export default Footer;

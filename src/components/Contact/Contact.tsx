@@ -1,9 +1,10 @@
-import { Container } from "./styles";
-import Button from "../Button";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import Button from "../Button";
 
-export function Contact() {
+import { Container } from "./styles";
+
+const Contact = () => {
   const [phoneOption, setPhoneOption] = useState(false);
   const contactNumber = '+92 310 9374288';
 
@@ -68,3 +69,5 @@ export function Contact() {
     </Container>
   );
 }
+
+export default Contact;

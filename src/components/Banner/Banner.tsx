@@ -1,10 +1,12 @@
 // import { BrowserRouter } from "react-router-dom";
-import { Container } from "./styles";
 // import ScrollAnimation from "react-animate-on-scroll";
 // import { NavHashLink } from "react-router-hash-link";
 // import Button from "../Button";
 import Icon from "../Icon/Icon";
-export function Hero() {
+
+import { Container } from "./styles";
+
+const Banner = () => {
   return (
     <Container id="home" className="home">
       <div className="hero-text">
@@ -44,3 +46,5 @@ export function Hero() {
     </Container>
   );
 }
+
+export default Banner;

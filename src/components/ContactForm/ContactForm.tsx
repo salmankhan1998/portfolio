@@ -1,12 +1,13 @@
-import { Container, ContainerSucces } from "./styles";
+import { useEffect, useState } from "react";
+// import ReCAPTCHA from "react-google-recaptcha";
 import { useForm, ValidationError } from "@formspree/react";
 import { toast } from "react-toastify";
-// import ReCAPTCHA from "react-google-recaptcha";
-import { useEffect, useState } from "react";
 import validator from "validator";
 import Button from "../Button";
 
-export function Form() {
+import { Container, ContainerSucces } from "./styles";
+
+const ContactForm = () => {
   const [state, handleSubmit] = useForm("myyozglw");
 
   const [validEmail, setValidEmail] = useState(false);
@@ -92,3 +93,5 @@ export function Form() {
     </Container>
   );
 }
+
+export default ContactForm;
