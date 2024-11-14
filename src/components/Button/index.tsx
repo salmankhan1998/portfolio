@@ -1,8 +1,8 @@
 import React, { ReactNode } from "react";
-import "./styles.scss";
-import Icon from "../Icon/Icon";
 import { IconType } from "../../heplers/types";
+import Icon from "../Icon/Icon";
 
+import "./styles.scss";
 interface Props {
   title?: string;
   iconType?: IconType;
@@ -26,7 +26,6 @@ const Button: React.FC<Props> = ({
   children,
   onClick,
 }) => {
-  // const Icon = useMemo(() => <span>{icon}</span>, [icon]);
   return (
     <button
       type={type}

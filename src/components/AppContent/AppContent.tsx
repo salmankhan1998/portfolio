@@ -1,9 +1,9 @@
 import Particles from "react-tsparticles";
 
-import { Hero } from "../Hero/Hero";
-import { About } from "../About/About";
-import { Contact } from "../Contact/Contact";
-import { Portfolio } from "../Portfolio/Portfolio";
+import Banner from "../Banner/Banner";
+import About from "../About/About";
+import Contact from "../Contact/Contact";
+import Projects from "../Projects/Projects";
 
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import mysqlIcon from "../../assets/mysql-icon.svg";
@@ -17,7 +17,7 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 
 import { Container } from "./styles";
 
-export function Main() {
+const AppContent = () => {
   return (
     <Container>
       <Particles
@@ -232,11 +232,13 @@ export function Main() {
         }}
       />
       <div className="container">
-        <Hero></Hero>
+        <Banner></Banner>
         <About></About>
-        <Portfolio></Portfolio>
+        <Projects></Projects>
         <Contact></Contact>
       </div>
     </Container>
   );
 }
+
+export default AppContent;

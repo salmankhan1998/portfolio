@@ -1,10 +1,11 @@
-import { Container } from "./styles";
 
 import ScrollAnimation from "react-animate-on-scroll";
-import Icon from "../Icon/Icon";
 import profileImage from "../../assets/profile-image.jpg";
+import Icon from "../Icon/Icon";
 
-export function About() {
+import { Container } from "./styles";
+
+const About = () => {
   return (
     <Container id="salman">
       <div className="about-text">
@@ -120,3 +121,5 @@ export function About() {
     </Container>
   );
 }
+
+export default About;

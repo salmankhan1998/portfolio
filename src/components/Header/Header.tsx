@@ -1,23 +1,24 @@
-import { Container } from "./styles";
+import { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
-import { useState } from "react";
 import Button from "../Button";
 import LogoDark from "../../assets/logo-dark.svg";
 import LogoLight from "../../assets/logo-light.svg";
 import Curriculo from "../../assets/SalmanResume.pdf";
 
-export function Header() {
+import { Container } from "./styles";
+
+const Header = () => {
   const [active, setActive] = useState(false);
   const [isLightTheme, setIsLightTheme] = useState(false)
 
-  function toggleTheme() {
+  const toggleTheme = () => {
     let html = document.getElementsByTagName("html")[0];
     html.classList.toggle("light");
     setIsLightTheme(!isLightTheme);
   }
 
-  function closeMenu() {
+  const closeMenu = () => {
     setActive(false);
   }
 
@@ -66,7 +67,6 @@ export function Header() {
           <label htmlFor="switch">Toggle</label>
         </nav>
 
-
         <div
           aria-expanded={active ? "true" : "false"}
           aria-haspopup="true"
@@ -80,3 +80,5 @@ export function Header() {
     </Container>
   );
 }
+
+export default Header;

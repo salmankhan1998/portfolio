@@ -1,10 +1,10 @@
 import React from "react";
-import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
 import Icon from "../Icon/Icon";
 
+import { Container } from "./styles";
 
-export function Portfolio() {
+const Projects = () => {
 
   const dummyData = [
     {
@@ -74,3 +74,5 @@ export function Portfolio() {
     </Container >
   );
 }
+
+export default Projects;
