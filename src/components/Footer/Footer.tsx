@@ -17,7 +17,7 @@ const Footer = () => {
         </a>
 
         <a href="https://github.com/salmankhan1998" target="_blank" rel="noreferrer">
-          <Icon type="GitHub" />
+          <Icon type="GitHub" color="#FFFFFF" width="28" height="24" />
         </a>
       </div>
     </Container>
