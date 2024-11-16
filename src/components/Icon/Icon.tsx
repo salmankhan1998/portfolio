@@ -3,15 +3,21 @@ import * as Icons from "../../icons";
 import { IconType } from "../../heplers/types";
 import "./styles.scss";
 
-export interface IconProps {
+interface SvgIconProps {
+  color?: string;
+  width?: number | string;
+  height?: number | string;
+}
+export interface IconProps extends SvgIconProps {
   type: IconType;
 }
 
-const Icon: React.FC<IconProps> = ({ type }) => {
-  const IconComponent = Icons[type];
+// eslint-disable-next-line @typescript-eslint/no-redeclare
+const Icon: React.FC<IconProps> = ({ type, color = "currentColor", width = '34', height = '30' }) => {
+  const IconComponent = Icons[type] as React.FC<SvgIconProps>;;
 
   return (
-    <IconComponent />
+    <IconComponent color={color} width={width} height={height} />
   );
 };
 

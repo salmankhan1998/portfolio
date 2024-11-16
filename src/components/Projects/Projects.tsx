@@ -49,7 +49,7 @@ const Projects = () => {
                   <Icon type="FolderIcon" />
                   <div className="project-links">
                     <a href={project.github} target="_blank" rel="noreferrer">
-                      <Icon type="GitHub" />
+                      <Icon type="GitHub" color="#FFFFFF" width="26" height="26" />
                     </a>
                     <a href={project.externalLink} target="_blank" rel="noreferrer">
                       <Icon type="ExternalLink" />
