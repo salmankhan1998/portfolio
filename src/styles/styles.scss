@@ -43,6 +43,10 @@
       color: var(--black);
     }
 
+    .hard-skills .hability .nextjs-icon {
+      fill: #000;
+    }
+
     header.header-fixed,
     .contacts {
       transition: 0.5s;
@@ -109,6 +113,10 @@
     .phone-wrapper {
       color: var(--black);
       border-color: var(--black);
+    }
+
+    .footer .social-media .github-icon {
+      fill: var(--black);
     }
   }
 }

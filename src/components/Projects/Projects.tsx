@@ -9,17 +9,17 @@ const Projects = () => {
   const dummyData = [
     {
       name: 'Basspro Shops',
-      description: "BPS Direct, LLC, doing business as Bass Pro Shops, is an American privately held sporting goods retailer that offers hunting, fishing, camping, and other related outdoor recreation equipment, marine manufacturing and sales, and outdoor resorts. The company is recognized by its retail stores, Bass Pro Shops and Cabela's, that feature natural outdoor designs and decorations.",
+      description: "I contributed to the enhancement of the Bass Pro Shops e-commerce platform using Next.js, focusing on building responsive and user-friendly interfaces. My work involved optimizing the performance of product pages, streamlining navigation, and integrating real-time updates for promotions and inventory. By ensuring cross-device compatibility and collaborating with backend teams, I helped deliver a seamless shopping experience for one of the leading outdoor recreation retailers.",
       github: '',
       externalLink: 'https://www.basspro.com',
       stack: ['NextJs', 'Recoil', 'Typescript', 'Sass']
     },
     {
-      name: 'Github Searcher',
-      description: 'Uma aplicação Web realizada durante o Hackathon do programa de formação da FCamara. Esta aplicação serve para ajudar na volta do trabalho remoto para o presencial.',
-      github: 'https://github.com/joaotuliojt/github-search',
-      externalLink: 'https://github-search-blond.vercel.app/',
-      stack: ['React', 'Typescript', 'Styled-Components']
+      name: 'Sailplan',
+      description: 'Contributed to the front-end development of SailPlan, a maritime analytics platform that leverages IoT and digital twin technology for fleet performance optimization. Built and enhanced responsive user interfaces using React.js, enabling real-time data visualization for vessel tracking, emissions monitoring, and predictive maintenance insights. Focused on delivering a seamless user experience to support maritime operators in improving operational efficiency and regulatory compliance.',
+      github: '',
+      externalLink: 'https://app.sailplan.ai/',
+      stack: ['React', 'Typescript', 'Redux Toolkit', 'RTK Query', 'CSS(Sass) Module']
     },
     {
       name: 'Github Searcher',
@@ -48,12 +48,12 @@ const Projects = () => {
                 <header>
                   <Icon type="FolderIcon" />
                   <div className="project-links">
-                    <a href={project.github} target="_blank" rel="noreferrer">
+                    {project.github && (<a href={project.github} target="_blank" rel="noreferrer">
                       <Icon type="GitHub" color="#FFFFFF" width="26" height="26" />
-                    </a>
-                    <a href={project.externalLink} target="_blank" rel="noreferrer">
+                    </a>)}
+                    {project.externalLink && (<a href={project.externalLink} target="_blank" rel="noreferrer">
                       <Icon type="ExternalLink" />
-                    </a>
+                    </a>)}
                   </div>
                 </header>
                 <div className="body">
