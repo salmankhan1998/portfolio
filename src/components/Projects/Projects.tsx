@@ -22,18 +22,18 @@ const Projects = () => {
       stack: ['React', 'Typescript', 'Redux Toolkit', 'RTK Query', 'CSS(Sass) Module']
     },
     {
-      name: 'Github Searcher',
-      description: 'Uma aplicação Web realizada durante o Hackathon do programa de formação da FCamara. Esta aplicação serve para ajudar na volta do trabalho remoto para o presencial.',
-      github: 'https://github.com/joaotuliojt/github-search',
-      externalLink: 'https://github-search-blond.vercel.app/',
-      stack: ['React', 'Typescript', 'Styled-Components']
+      name: 'Vortic.Art',
+      description: 'Collaborated on the development of Vortic.art, a cutting-edge platform revolutionizing the art world by offering immersive 3D, AR, and VR experiences for galleries, museums, and collectors. Utilized React.js to build interactive components and fixed bug to provide best seamless user experience. Contributed to creating a dynamic, responsive user interface that bridges physical and digital art spaces, enhancing accessibility and sustainability within the art industry.',
+      github: '',
+      externalLink: 'https://vortic.art/discover',
+      stack: ['React', 'Typescript', 'Redux', 'Sass']
     },
     {
-      name: 'Sunnyside agency',
-      description: 'Uma aplicação Web realizada durante o Hackathon do programa de formação da FCamara. Esta aplicação serve para ajudar na volta do trabalho remoto para o presencial.',
-      github: 'https://joaotuliojt.github.io/sunnyside-agency/',
-      externalLink: '#',
-      stack: ['Html', 'Css', 'Javascript']
+      name: 'Smol Peners',
+      description: "The Smol Peners project is a satirical NFT initiative built on the Ethereum blockchain, blending humor, art, and community engagement. As a React developer, my contributions focused on creating an engaging and seamless user interface for the project's interactive elements, such as showcase NFT galleries, and members showcasing etc. Emphasis was placed on responsive design and optimizing performance to support the growing number of participants.",
+      github: '',
+      externalLink: 'https://smolpeners.com/',
+      stack: ['ReactJs', 'Javascript', 'Sass']
     }
   ]
   return (

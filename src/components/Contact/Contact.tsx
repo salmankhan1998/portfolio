@@ -47,7 +47,7 @@ const Contact = () => {
         </p>
       </header>
       <div className="contacts">
-        <a href="mailto:skhandilshad1998@gmail.com">
+        <a href="https://mail.google.com/mail/u/0/?view=cm&to=skhandilshad1998@gmail.com" target="_blank" title="Click To Send Email" rel="noreferrer">
           <Button iconType="Mail" variant="secondary" onClick={() => { handleClick('mail') }} />
         </a>
         <Button iconType="Phone" variant="secondary" onClick={() => { handleClick('phone') }} />
