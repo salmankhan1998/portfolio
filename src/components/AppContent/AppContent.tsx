@@ -16,6 +16,7 @@ import nodeJsIcon from "../../assets/node-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 
 import { Container } from "./styles";
+import Experience from "../Experience/Experience";
 
 const AppContent = () => {
   return (
@@ -232,10 +233,11 @@ const AppContent = () => {
         }}
       />
       <div className="container">
-        <Banner></Banner>
-        <About></About>
-        <Projects></Projects>
-        <Contact></Contact>
+        <Banner />
+        <About />
+        <Projects />
+        <Experience />
+        <Contact />
       </div>
     </Container>
   );

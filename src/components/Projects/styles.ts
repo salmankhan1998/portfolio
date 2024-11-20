@@ -6,7 +6,8 @@ export const Container = styled.section`
   h2 {
     text-align: center;
     font-size: 4rem;
-    margin-bottom: 6rem;
+    width: fit-content;
+    margin: 0 auto 6rem;
   }
 
   .projects {

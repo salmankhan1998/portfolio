@@ -8,10 +8,10 @@ export const Container = styled.section`
     h2 {
       text-align: center;
       font-size: 4rem;
-      margin-bottom: 5rem;
+      width: fit-content;
+      margin: 0 auto 6rem;
     }
     p {
-      color: var(--green);
       font-weight: 500;
       margin-top: 1rem;
     }
@@ -23,7 +23,7 @@ export const Container = styled.section`
     justify-content: center;
     gap: 2rem;
     place-items: center;
-    margin-top: 2rem;
+    margin: 2rem 0 0.25rem;
   }
   .phone-wrapper {
     display: flex;
