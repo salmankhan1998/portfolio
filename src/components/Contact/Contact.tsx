@@ -40,7 +40,7 @@ const Contact = () => {
   return (
     <Container id="contact">
       <header>
-        <h2>Contact me</h2>
+        <h2>Contact</h2>
         <p>
           If you've seen my potential or want to talk to me, don't hesitate to
           send me a message.

@@ -11,7 +11,12 @@ export const Container = styled.section`
   }
 
   .experiences-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+
     .experience {
+      padding: 0 30px;
       .job-title {
         font-size: 26px;
         margin-bottom: 10px;
@@ -25,6 +30,11 @@ export const Container = styled.section`
 
       .job-responsibilities {
         margin-top: 20px;
+        margin-left: 20px;
+
+        li {
+          list-style-type: disc;
+        }
       }
 
       .skills-stack {

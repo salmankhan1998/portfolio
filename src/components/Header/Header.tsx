@@ -46,6 +46,14 @@ const Header = () => {
           </NavHashLink>
           <NavHashLink
             smooth
+            to="#experience"
+            className="link"
+            onClick={closeMenu}
+          >
+            Experience
+          </NavHashLink>
+          <NavHashLink
+            smooth
             to="#contact"
             className="link"
             onClick={closeMenu}
