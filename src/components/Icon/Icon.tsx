@@ -14,7 +14,7 @@ export interface IconProps extends SvgIconProps {
 
 // eslint-disable-next-line @typescript-eslint/no-redeclare
 const Icon: React.FC<IconProps> = ({ type, color = "currentColor", width = '34', height = '30' }) => {
-  const IconComponent = Icons[type] as React.FC<SvgIconProps>;;
+  const IconComponent = Icons[type] as React.FC<SvgIconProps>;
 
   return (
     <IconComponent color={color} width={width} height={height} />
