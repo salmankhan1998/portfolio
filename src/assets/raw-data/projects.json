@@ -37,7 +37,7 @@
     "name": "My Portfolio",
     "description": "The portoflio was built in react js to showcase my work and indutry experience that I possess over the past years. It follows the react principle of reusable components base approach with full customization",
     "github": "https://github.com/salmankhan1998/portfolio",
-    "externalLink": "https://salmankhan-mu.vercel.app",
+    "externalLink": "",
     "stack": ["ReactJs", "Typescript", "CSS", "Styled-Components"]
   },
   {
