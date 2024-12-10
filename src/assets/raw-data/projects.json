@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Basspro Shops",
+    "description": "I contributed to the enhancement of the Bass Pro Shops e-commerce platform using Next.js, focusing on building responsive and user-friendly interfaces. My work involved optimizing the performance of product pages, streamlining navigation, and integrating real-time updates. By ensuring cross-device compatibility and collaborating with backend teams, I helped deliver a seamless shopping experience for one of the leading outdoor recreation retailers.",
+    "github": "",
+    "externalLink": "https://www.basspro.com",
+    "stack": ["NextJs", "Recoil", "Typescript", "Sass"]
+  },
+  {
+    "name": "Sailplan",
+    "description": "Contributed to the front-end development of SailPlan, a maritime analytics platform that leverages IoT and digital twin technology for fleet performance optimization. Built and enhanced responsive user interfaces using React.js, enabling real-time data visualization for vessel tracking, emissions monitoring, and predictive maintenance insights. Focused on delivering a seamless user experience to support maritime operators in improving operational efficiency and regulatory compliance.",
+    "github": "",
+    "externalLink": "https://app.sailplan.ai/",
+    "stack": [
+      "React",
+      "Typescript",
+      "Redux Toolkit",
+      "RTK Query",
+      "CSS(Sass) Module"
+    ]
+  },
+  {
+    "name": "Vortic.Art",
+    "description": "Collaborated on the development of Vortic.art, a cutting-edge platform revolutionizing the art world by offering immersive 3D, AR, and VR experiences for galleries, museums, and collectors. Utilized React.js to build interactive components and fixed bug to provide best seamless user experience. Contributed to creating a dynamic, responsive user interface that bridges physical and digital art spaces, enhancing accessibility and sustainability within the art industry.",
+    "github": "",
+    "externalLink": "https://vortic.art/discover",
+    "stack": ["React", "Typescript", "Redux", "Sass"]
+  },
+  {
+    "name": "Smol Peners",
+    "description": "The Smol Peners project is a satirical NFT initiative with blending humor, art, and community engagement. As a React developer, my contributions focused on creating an engaging and seamless user interface for the project's interactive elements, such as showcase NFT galleries, and members showcasing etc. Emphasis was placed on responsive design and optimizing performance.",
+    "github": "",
+    "externalLink": "https://smolpeners.com/",
+    "stack": ["ReactJs", "Javascript", "Sass"]
+  },
+  {
+    "name": "My Portfolio",
+    "description": "The portoflio was built in react js to showcase my work and indutry experience that I possess over the past years. It follows the react principle of reusable components base approach with full customization",
+    "github": "https://github.com/salmankhan1998/portfolio",
+    "externalLink": "",
+    "stack": ["ReactJs", "Typescript", "CSS", "Styled-Components"]
+  },
+  {
+    "name": "t2 Storbook",
+    "description": "The T2 Storybook project provides an interactive environment for developing and documenting UI components. It features a configurable interface that supports component testing, design consistency, and streamlined collaboration. Using Storybook enhances productivity by allowing developers to build components in isolation, ensuring they are reusable and maintainable.",
+    "github": "https://github.com/salmankhan1998/storybook",
+    "externalLink": "https://t2-storybook.vercel.app",
+    "stack": ["NextJs", "Typescript", "CSS Module"]
+  }
+]
