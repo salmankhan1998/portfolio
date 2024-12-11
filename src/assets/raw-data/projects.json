@@ -46,5 +46,12 @@
     "github": "https://github.com/salmankhan1998/storybook",
     "externalLink": "https://t2-storybook.vercel.app",
     "stack": ["NextJs", "Typescript", "CSS Module"]
+  },
+  {
+    "name": "Pig Game",
+    "description": "Pig game is a two player game built in Vanilla javascipt. Each player will roll the dice and add the score to the total except if the dice roll ends in number 1, the current player will lose his turn and total score until he holds his score. The player who kept holding his score without losing it and reach a score of 50 will win the game.",
+    "github": "https://github.com/salmankhan1998/pig-game",
+    "externalLink": "https://pig-game-two-sigma.vercel.app",
+    "stack": ["Html", "CSS", "Javascript"]
   }
 ]
