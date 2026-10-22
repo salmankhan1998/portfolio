@@ -4,7 +4,7 @@ import { NavHashLink, HashLink } from "react-router-hash-link";
 import Button from "../Button";
 import LogoDark from "../../assets/logo-dark.svg";
 import LogoLight from "../../assets/logo-light.svg";
-import Curriculo from "../../assets/SalmanResume.pdf";
+import Curriculo from "../../assets/Salman_Khan_Resume.pdf";
 
 import { Container } from "./styles";
 
