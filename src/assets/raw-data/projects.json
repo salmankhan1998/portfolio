@@ -1,10 +1,17 @@
 [
   {
+    "name": "Inflow",
+    "description": "I contributed to the InFlow payment platform using Spring Boot and server-rendered UI, focusing on rebuilding the product experience around a consistent design system. My work involved redesigning transactions, approvals, policies, sellers, and account flows; shipping the Agent Enrollment Protocol (www.aep.foundation) and Offering Discovery Protocol (www.offeringprotocol.org) documentation sites; and building CLI (inflowcli.ai) and API reference pages. By improving mobile responsiveness, interaction patterns, and cross-page UI consistency, I helped deliver a polished, developer-facing experience for blockchain payments and agent wallets.",
+    "github": "",
+    "externalLink": "https://www.inflowpay.ai/",
+    "stack": ["Java", "Spring Boot", "Pebble", "HTMX", "JavaScript", "Bootstrap", "SASS", "MySQL"]
+  },
+  {
     "name": "Basspro Shops",
     "description": "I contributed to the enhancement of the Bass Pro Shops e-commerce platform using Next.js, focusing on building responsive and user-friendly interfaces. My work involved optimizing the performance of product pages, streamlining navigation, and integrating real-time updates. By ensuring cross-device compatibility and collaborating with backend teams, I helped deliver a seamless shopping experience for one of the leading outdoor recreation retailers.",
     "github": "",
     "externalLink": "https://www.basspro.com",
-    "stack": ["NextJs", "Recoil", "Typescript", "Sass"]
+    "stack": ["NextJs", "Recoil", "Typescript", "SASS"]
   },
   {
     "name": "Sailplan",
@@ -17,6 +24,19 @@
       "Redux Toolkit",
       "RTK Query",
       "CSS(Sass) Module"
+    ]
+  },
+  {
+    "name": "Tequal",
+    "description": "Built Tequal from scratch, a time-tracking and reflection web app where users log their day across four categories (productive, social, relaxing, sleep) and view it on a visual Time Map in day, week and month views, with authentication including Google sign-in and CSV export of time data.",
+    "github": "",
+    "externalLink": "https://tequal.app/",
+    "stack": [
+      "NextJs",
+      "Typescript",
+      "Supabase",
+      "GSAP",
+      "TailwindCSS"
     ]
   },
   {
